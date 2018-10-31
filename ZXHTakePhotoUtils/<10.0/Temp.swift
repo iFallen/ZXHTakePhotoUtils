@@ -2,7 +2,7 @@
 import UIKit
 import AVFoundation
 
-//use AVCaptureStillImageOutput replace AVCaptureDeviceOutput
+//use AVCaptureStillImageOutput replace AVCapturePhotoOutput
 class ZXHIDAuthorizeViewController: ZXUIViewController {
     
     @IBOutlet weak var previewView: UIView!
