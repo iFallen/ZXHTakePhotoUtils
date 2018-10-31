@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A24848C2187F41400C5DEA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A24848B2187F41400C5DEA5 /* AppDelegate.swift */; };
+		6A24848E2187F41400C5DEA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A24848D2187F41400C5DEA5 /* ViewController.swift */; };
+		6A2484912187F41400C5DEA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A24848F2187F41400C5DEA5 /* Main.storyboard */; };
+		6A2484932187F41700C5DEA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2484922187F41700C5DEA5 /* Assets.xcassets */; };
+		6A2484962187F41700C5DEA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2484942187F41700C5DEA5 /* LaunchScreen.storyboard */; };
+		6A2484A02187F4C600C5DEA5 /* ZXHTakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A24849E2187F4C600C5DEA5 /* ZXHTakePhotoViewController.swift */; };
+		6A2484A12187F4C600C5DEA5 /* ZXHTakePhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A24849F2187F4C600C5DEA5 /* ZXHTakePhotoViewController.xib */; };
+		6A2484A32187F59300C5DEA5 /* ZXCorner.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2484A22187F59300C5DEA5 /* ZXCorner.xcassets */; };
+		6A2484A62187F8FB00C5DEA5 /* ZXHConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2484A42187F8FB00C5DEA5 /* ZXHConfirmViewController.swift */; };
+		6A2484A72187F8FB00C5DEA5 /* ZXHConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A2484A52187F8FB00C5DEA5 /* ZXHConfirmViewController.xib */; };
+		6A2484A92188004B00C5DEA5 /* ZXHTakePhotoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2484A82188004B00C5DEA5 /* ZXHTakePhotoUtils.swift */; };
+		6A2484AB21882B2200C5DEA5 /* AVCaptureDevice+ZX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2484AA21882B2200C5DEA5 /* AVCaptureDevice+ZX.swift */; };
+		6A2484AD21882B6600C5DEA5 /* ZXTHError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2484AC21882B6600C5DEA5 /* ZXTHError.swift */; };
+		6AB32B97218838F10056F156 /* UIImage+ZX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB32B96218838F10056F156 /* UIImage+ZX.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A2484882187F41400C5DEA5 /* ZXHTakePhotoUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXHTakePhotoUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A24848B2187F41400C5DEA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A24848D2187F41400C5DEA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A2484902187F41400C5DEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A2484922187F41700C5DEA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A2484952187F41700C5DEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A2484972187F41700C5DEA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A24849E2187F4C600C5DEA5 /* ZXHTakePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXHTakePhotoViewController.swift; sourceTree = "<group>"; };
+		6A24849F2187F4C600C5DEA5 /* ZXHTakePhotoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXHTakePhotoViewController.xib; sourceTree = "<group>"; };
+		6A2484A22187F59300C5DEA5 /* ZXCorner.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ZXCorner.xcassets; sourceTree = "<group>"; };
+		6A2484A42187F8FB00C5DEA5 /* ZXHConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXHConfirmViewController.swift; sourceTree = "<group>"; };
+		6A2484A52187F8FB00C5DEA5 /* ZXHConfirmViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZXHConfirmViewController.xib; sourceTree = "<group>"; };
+		6A2484A82188004B00C5DEA5 /* ZXHTakePhotoUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXHTakePhotoUtils.swift; sourceTree = "<group>"; };
+		6A2484AA21882B2200C5DEA5 /* AVCaptureDevice+ZX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+ZX.swift"; sourceTree = "<group>"; };
+		6A2484AC21882B6600C5DEA5 /* ZXTHError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXTHError.swift; sourceTree = "<group>"; };
+		6AB32B96218838F10056F156 /* UIImage+ZX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+ZX.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A2484852187F41400C5DEA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A24847F2187F41400C5DEA5 = {
+			isa = PBXGroup;
+			children = (
+				6A24848A2187F41400C5DEA5 /* ZXHTakePhotoUtils */,
+				6A2484892187F41400C5DEA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A2484892187F41400C5DEA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A2484882187F41400C5DEA5 /* ZXHTakePhotoUtils.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A24848A2187F41400C5DEA5 /* ZXHTakePhotoUtils */ = {
+			isa = PBXGroup;
+			children = (
+				6A24848B2187F41400C5DEA5 /* AppDelegate.swift */,
+				6A24848D2187F41400C5DEA5 /* ViewController.swift */,
+				6A24849D2187F42300C5DEA5 /* ZXHTakePhotoUtils */,
+				6A24848F2187F41400C5DEA5 /* Main.storyboard */,
+				6A2484922187F41700C5DEA5 /* Assets.xcassets */,
+				6A2484942187F41700C5DEA5 /* LaunchScreen.storyboard */,
+				6A2484972187F41700C5DEA5 /* Info.plist */,
+			);
+			path = ZXHTakePhotoUtils;
+			sourceTree = "<group>";
+		};
+		6A24849D2187F42300C5DEA5 /* ZXHTakePhotoUtils */ = {
+			isa = PBXGroup;
+			children = (
+				6A2484A82188004B00C5DEA5 /* ZXHTakePhotoUtils.swift */,
+				6A24849E2187F4C600C5DEA5 /* ZXHTakePhotoViewController.swift */,
+				6A24849F2187F4C600C5DEA5 /* ZXHTakePhotoViewController.xib */,
+				6A2484AC21882B6600C5DEA5 /* ZXTHError.swift */,
+				6A2484AA21882B2200C5DEA5 /* AVCaptureDevice+ZX.swift */,
+				6A2484A42187F8FB00C5DEA5 /* ZXHConfirmViewController.swift */,
+				6A2484A52187F8FB00C5DEA5 /* ZXHConfirmViewController.xib */,
+				6A2484A22187F59300C5DEA5 /* ZXCorner.xcassets */,
+				6AB32B96218838F10056F156 /* UIImage+ZX.swift */,
+			);
+			path = ZXHTakePhotoUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A2484872187F41400C5DEA5 /* ZXHTakePhotoUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A24849A2187F41700C5DEA5 /* Build configuration list for PBXNativeTarget "ZXHTakePhotoUtils" */;
+			buildPhases = (
+				6A2484842187F41400C5DEA5 /* Sources */,
+				6A2484852187F41400C5DEA5 /* Frameworks */,
+				6A2484862187F41400C5DEA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXHTakePhotoUtils;
+			productName = ZXHTakePhotoUtils;
+			productReference = 6A2484882187F41400C5DEA5 /* ZXHTakePhotoUtils.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A2484802187F41400C5DEA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = screson;
+				TargetAttributes = {
+					6A2484872187F41400C5DEA5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 6A2484832187F41400C5DEA5 /* Build configuration list for PBXProject "ZXHTakePhotoUtils" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A24847F2187F41400C5DEA5;
+			productRefGroup = 6A2484892187F41400C5DEA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A2484872187F41400C5DEA5 /* ZXHTakePhotoUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A2484862187F41400C5DEA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2484A32187F59300C5DEA5 /* ZXCorner.xcassets in Resources */,
+				6A2484962187F41700C5DEA5 /* LaunchScreen.storyboard in Resources */,
+				6A2484932187F41700C5DEA5 /* Assets.xcassets in Resources */,
+				6A2484912187F41400C5DEA5 /* Main.storyboard in Resources */,
+				6A2484A72187F8FB00C5DEA5 /* ZXHConfirmViewController.xib in Resources */,
+				6A2484A12187F4C600C5DEA5 /* ZXHTakePhotoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A2484842187F41400C5DEA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2484AD21882B6600C5DEA5 /* ZXTHError.swift in Sources */,
+				6AB32B97218838F10056F156 /* UIImage+ZX.swift in Sources */,
+				6A2484A62187F8FB00C5DEA5 /* ZXHConfirmViewController.swift in Sources */,
+				6A2484A02187F4C600C5DEA5 /* ZXHTakePhotoViewController.swift in Sources */,
+				6A24848E2187F41400C5DEA5 /* ViewController.swift in Sources */,
+				6A2484AB21882B2200C5DEA5 /* AVCaptureDevice+ZX.swift in Sources */,
+				6A24848C2187F41400C5DEA5 /* AppDelegate.swift in Sources */,
+				6A2484A92188004B00C5DEA5 /* ZXHTakePhotoUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A24848F2187F41400C5DEA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A2484902187F41400C5DEA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A2484942187F41700C5DEA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A2484952187F41700C5DEA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A2484982187F41700C5DEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A2484992187F41700C5DEA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A24849B2187F41700C5DEA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = H4384M9Z5J;
+				INFOPLIST_FILE = ZXHTakePhotoUtils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.once.zxht;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ZXCommonDevelop;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A24849C2187F41700C5DEA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZXHTakePhotoUtils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.once.zxht;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A2484832187F41400C5DEA5 /* Build configuration list for PBXProject "ZXHTakePhotoUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A2484982187F41700C5DEA5 /* Debug */,
+				6A2484992187F41700C5DEA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A24849A2187F41700C5DEA5 /* Build configuration list for PBXNativeTarget "ZXHTakePhotoUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A24849B2187F41700C5DEA5 /* Debug */,
+				6A24849C2187F41700C5DEA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A2484802187F41400C5DEA5 /* Project object */;
+}
