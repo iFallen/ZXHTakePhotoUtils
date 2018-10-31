@@ -19,4 +19,4 @@ ZXTakePhotoUtils.popshow(upon: self, showConfirm: true) { (data, sourceImage, cr
 
 |IMG1|IMG2|
 |--------|--------|
-|![IMG1](https://github.com/iFallen/ZXHTakePhotoUtils/raw/master/IMG/IMG1.JPG)|![IMG2](https://github.com/iFallen/ZXHTakePhotoUtils/raw/master/IMG/IMG1.JPG)|
+|![IMG1](https://github.com/iFallen/ZXHTakePhotoUtils/raw/master/IMG/IMG1.jpg)|![IMG2](https://github.com/iFallen/ZXHTakePhotoUtils/raw/master/IMG/IMG1.jpg)|
